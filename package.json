@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://rajnikantwebdev.github.io/Aadi-foundation-1",
+  "homepage": "http://rajnikantwebdev.github.io/aadifoundationone",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://rajnikantwebdev.github.io/Aadi-foundation-1'",
+    "build-gh": "parcel build --public-url 'https://rajnikantwebdev.github.io/aadifoundationone'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
