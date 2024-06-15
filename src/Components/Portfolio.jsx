@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/projects.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "A functional backend using express.js.",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created a fully functional and working backend using express.js. It consumes MongoDb for database, includes various functionalities.",
+    url: "https://github.com/rajnikantwebdev/rajni-backend",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Advanced Todo Application.",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This todo app, allows user to add sub todo of a todo. You can add priority to a particular task. Using localhost for storing task",
+    url: "https://github.com/rajnikantwebdev/advanced-todos",
   },
   {
-    title: "My Resume Site",
+    title: "Authentication panel",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A simple authentication panel using Supabase, user are allowed to sign up using email and password, they can update the metadata later.",
+    url: "https://github.com/rajnikantwebdev/supa-base-vite",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Devlib - Library for developers",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A tool where a new developers can find various resources in form of videos and articles. It allows a authenticated user to upload content.",
+    url: "https://github.com/Aman-web-dev/Devlib",
   },
 ];
 
